@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32CAF6F206A6597009DBD8D /* MedicalSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32CAF6E206A6597009DBD8D /* MedicalSearchViewController.swift */; };
+		B32CAF71206A706D009DBD8D /* MedInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B32CAF70206A706D009DBD8D /* MedInfo.plist */; };
+		B32CAF73206A71BA009DBD8D /* MedInfoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32CAF72206A71BA009DBD8D /* MedInfoCollection.swift */; };
+		B32CAF75206A71DD009DBD8D /* MedInfoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32CAF74206A71DD009DBD8D /* MedInfoFilter.swift */; };
+		B32CAF79206A8FF7009DBD8D /* Handbones_CoreML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B32CAF78206A8FF6009DBD8D /* Handbones_CoreML.mlmodel */; };
+		B32CAF7B206A9016009DBD8D /* BoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32CAF7A206A9016009DBD8D /* BoneViewController.swift */; };
+		B35C0974206FD5E700A7D284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35C0973206FD5E400A7D284 /* Assets.xcassets */; };
+		B3627593207CF647006F50FF /* BoneInjuries_CoreML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B3627592207CF647006F50FF /* BoneInjuries_CoreML.mlmodel */; };
+		B3A05FB62069556900335237 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A05FB52069556900335237 /* HomeViewController.swift */; };
+		B3B1B47120670B6800BA274A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B47020670B6800BA274A /* AppDelegate.swift */; };
+		B3B1B47320670B6800BA274A /* BloodCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B47220670B6800BA274A /* BloodCellViewController.swift */; };
+		B3B1B47620670B6800BA274A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B1B47420670B6800BA274A /* Main.storyboard */; };
+		B3B1B47920670B6800BA274A /* Medical_Hub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B47720670B6800BA274A /* Medical_Hub.xcdatamodeld */; };
+		B3B1B47E20670B6900BA274A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B1B47C20670B6900BA274A /* LaunchScreen.storyboard */; };
+		B3B1B48620670BA500BA274A /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B48520670BA500BA274A /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		B3B1B48820670BE700BA274A /* Blood_Cells.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B48720670BE700BA274A /* Blood_Cells.mlmodel */; };
+		B3F920DB206BFC3A0005D0F0 /* InjuryDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F920DA206BFC3A0005D0F0 /* InjuryDrawingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B32CAF6E206A6597009DBD8D /* MedicalSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalSearchViewController.swift; sourceTree = "<group>"; };
+		B32CAF70206A706D009DBD8D /* MedInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MedInfo.plist; sourceTree = "<group>"; };
+		B32CAF72206A71BA009DBD8D /* MedInfoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedInfoCollection.swift; sourceTree = "<group>"; };
+		B32CAF74206A71DD009DBD8D /* MedInfoFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedInfoFilter.swift; sourceTree = "<group>"; };
+		B32CAF78206A8FF6009DBD8D /* Handbones_CoreML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Handbones_CoreML.mlmodel; sourceTree = "<group>"; };
+		B32CAF7A206A9016009DBD8D /* BoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneViewController.swift; sourceTree = "<group>"; };
+		B35C0973206FD5E400A7D284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3627592207CF647006F50FF /* BoneInjuries_CoreML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BoneInjuries_CoreML.mlmodel; sourceTree = "<group>"; };
+		B3A05FB52069556900335237 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B3B1B46D20670B6800BA274A /* Medical Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medical Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B1B47020670B6800BA274A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3B1B47220670B6800BA274A /* BloodCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodCellViewController.swift; sourceTree = "<group>"; };
+		B3B1B47520670B6800BA274A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3B1B47820670B6800BA274A /* Medical_Hub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medical_Hub.xcdatamodel; sourceTree = "<group>"; };
+		B3B1B47D20670B6900BA274A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3B1B47F20670B6900BA274A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B1B48520670BA500BA274A /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		B3B1B48720670BE700BA274A /* Blood_Cells.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Blood_Cells.mlmodel; sourceTree = "<group>"; };
+		B3F920DA206BFC3A0005D0F0 /* InjuryDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuryDrawingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3B1B46A20670B6800BA274A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32CAF7C206ABB0F009DBD8D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B47220670B6800BA274A /* BloodCellViewController.swift */,
+				B3B1B47020670B6800BA274A /* AppDelegate.swift */,
+				B3A05FB52069556900335237 /* HomeViewController.swift */,
+				B32CAF7A206A9016009DBD8D /* BoneViewController.swift */,
+				B32CAF6E206A6597009DBD8D /* MedicalSearchViewController.swift */,
+				B3F920DA206BFC3A0005D0F0 /* InjuryDrawingViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B32CAF7D206ABB55009DBD8D /* Core ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3627592207CF647006F50FF /* BoneInjuries_CoreML.mlmodel */,
+				B3B1B48720670BE700BA274A /* Blood_Cells.mlmodel */,
+				B32CAF78206A8FF6009DBD8D /* Handbones_CoreML.mlmodel */,
+			);
+			path = "Core ML Model";
+			sourceTree = "<group>";
+		};
+		B36A7B3F206ABC0400CFBF76 /* Addtional Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B48520670BA500BA274A /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				B32CAF72206A71BA009DBD8D /* MedInfoCollection.swift */,
+				B32CAF74206A71DD009DBD8D /* MedInfoFilter.swift */,
+			);
+			path = "Addtional Files";
+			sourceTree = "<group>";
+		};
+		B36A7B40206ABC2E00CFBF76 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B47420670B6800BA274A /* Main.storyboard */,
+				B35C0973206FD5E400A7D284 /* Assets.xcassets */,
+				B3B1B47C20670B6900BA274A /* LaunchScreen.storyboard */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		B36A7B41206ABCA900CFBF76 /* Data components */ = {
+			isa = PBXGroup;
+			children = (
+				B32CAF70206A706D009DBD8D /* MedInfo.plist */,
+			);
+			path = "Data components";
+			sourceTree = "<group>";
+		};
+		B3B1B46420670B6800BA274A = {
+			isa = PBXGroup;
+			children = (
+				B3B1B46F20670B6800BA274A /* Medical Hub */,
+				B3B1B46E20670B6800BA274A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B1B46E20670B6800BA274A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B46D20670B6800BA274A /* Medical Hub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B1B46F20670B6800BA274A /* Medical Hub */ = {
+			isa = PBXGroup;
+			children = (
+				B32CAF7C206ABB0F009DBD8D /* View Controllers */,
+				B36A7B3F206ABC0400CFBF76 /* Addtional Files */,
+				B36A7B40206ABC2E00CFBF76 /* UI Components */,
+				B32CAF7D206ABB55009DBD8D /* Core ML Model */,
+				B36A7B41206ABCA900CFBF76 /* Data components */,
+				B3B1B47F20670B6900BA274A /* Info.plist */,
+				B3B1B47720670B6800BA274A /* Medical_Hub.xcdatamodeld */,
+			);
+			path = "Medical Hub";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3B1B46C20670B6800BA274A /* Medical Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B1B48220670B6900BA274A /* Build configuration list for PBXNativeTarget "Medical Hub" */;
+			buildPhases = (
+				B3B1B46920670B6800BA274A /* Sources */,
+				B3B1B46A20670B6800BA274A /* Frameworks */,
+				B3B1B46B20670B6800BA274A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medical Hub";
+			productName = "Medical Hub";
+			productReference = B3B1B46D20670B6800BA274A /* Medical Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B1B46520670B6800BA274A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Walter Bassage";
+				TargetAttributes = {
+					B3B1B46C20670B6800BA274A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B3B1B46820670B6800BA274A /* Build configuration list for PBXProject "Medical Hub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3B1B46420670B6800BA274A;
+			productRefGroup = B3B1B46E20670B6800BA274A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B1B46C20670B6800BA274A /* Medical Hub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B1B46B20670B6800BA274A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B1B47E20670B6900BA274A /* LaunchScreen.storyboard in Resources */,
+				B32CAF71206A706D009DBD8D /* MedInfo.plist in Resources */,
+				B35C0974206FD5E700A7D284 /* Assets.xcassets in Resources */,
+				B3B1B47620670B6800BA274A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3B1B46920670B6800BA274A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B1B48620670BA500BA274A /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				B32CAF75206A71DD009DBD8D /* MedInfoFilter.swift in Sources */,
+				B32CAF6F206A6597009DBD8D /* MedicalSearchViewController.swift in Sources */,
+				B3B1B48820670BE700BA274A /* Blood_Cells.mlmodel in Sources */,
+				B3F920DB206BFC3A0005D0F0 /* InjuryDrawingViewController.swift in Sources */,
+				B3B1B47320670B6800BA274A /* BloodCellViewController.swift in Sources */,
+				B32CAF7B206A9016009DBD8D /* BoneViewController.swift in Sources */,
+				B3B1B47120670B6800BA274A /* AppDelegate.swift in Sources */,
+				B3A05FB62069556900335237 /* HomeViewController.swift in Sources */,
+				B32CAF73206A71BA009DBD8D /* MedInfoCollection.swift in Sources */,
+				B3B1B47920670B6800BA274A /* Medical_Hub.xcdatamodeld in Sources */,
+				B32CAF79206A8FF7009DBD8D /* Handbones_CoreML.mlmodel in Sources */,
+				B3627593207CF647006F50FF /* BoneInjuries_CoreML.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3B1B47420670B6800BA274A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B1B47520670B6800BA274A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3B1B47C20670B6900BA274A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B1B47D20670B6900BA274A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3B1B48020670B6900BA274A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3B1B48120670B6900BA274A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3B1B48320670B6900BA274A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUUT9QSKM3;
+				INFOPLIST_FILE = "Medical Hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GUUT9QSKM3.bassage.walter.Medical-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B3B1B48420670B6900BA274A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUUT9QSKM3;
+				INFOPLIST_FILE = "Medical Hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GUUT9QSKM3.bassage.walter.Medical-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3B1B46820670B6800BA274A /* Build configuration list for PBXProject "Medical Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B1B48020670B6900BA274A /* Debug */,
+				B3B1B48120670B6900BA274A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B1B48220670B6900BA274A /* Build configuration list for PBXNativeTarget "Medical Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B1B48320670B6900BA274A /* Debug */,
+				B3B1B48420670B6900BA274A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3B1B47720670B6800BA274A /* Medical_Hub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3B1B47820670B6800BA274A /* Medical_Hub.xcdatamodel */,
+			);
+			currentVersion = B3B1B47820670B6800BA274A /* Medical_Hub.xcdatamodel */;
+			path = Medical_Hub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3B1B46520670B6800BA274A /* Project object */;
+}
